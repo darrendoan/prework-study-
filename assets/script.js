@@ -7,13 +7,13 @@ function listTopics() {
 }
 
 function selectTopic() {
-    if (topic === 'HTML') {
+    if (topics[0] === 'HTML') {
     console.log("Lets Study HTML!");
-} else if (topic === 'CSS') {
+} else if (topics[0] === 'CSS') {
     console.log("Lets Study CSS!");
-} else if (topic === 'Git') {
+} else if (topics[0] === 'Git') {
     console.log("Lets Study Git!");
-}else if (topic === 'JavaScript') {
+}else if (topics[0] === 'JavaScript') {
     console.log("Lets Study JavaScript!");
 } else {
     console.log("Please Try Again!");
@@ -21,4 +21,4 @@ function selectTopic() {
 }
 
 listTopics()
-
+selectTopic()
