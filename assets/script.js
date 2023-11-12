@@ -1,7 +1,7 @@
 var topics = ['HTML', 'CSS', 'Git', 'JavaScript'];
 
 for (var x = 0; x < topics.length; x++) {
-    Console.log(topics[x]);
+    console.log(topics[x]);
 }
 /*
 var topic = "HTML";
